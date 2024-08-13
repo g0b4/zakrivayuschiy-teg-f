@@ -367,9 +367,9 @@ footer {
 
 .floppy {
   display: flex;
-  width: 28px;
-  height: 28px;
-  mix-blend-mode: difference;
+  width: 20px;
+  height: 20px;
+  /*mix-blend-mode: difference;*/
   color: var(--color-button-text);
 }
 
