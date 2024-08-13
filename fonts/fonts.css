@@ -12,7 +12,8 @@
       local('Roboto-Flex-Variable'),
       url('../fonts/Inter-Variable.woff2') format('woff2 supports variations'),
           url('../fonts/Inter-Variable.woff2') format('woff2-variations');
-  }
+          font-weight: 400 785;
+        }
 
   @font-face {
     font-display: swap;
@@ -21,4 +22,5 @@
       local('Roboto-Flex-Variable'),
       url('../fonts/Inter-Variable.woff2') format('woff2 supports variations'),
           url('../fonts/Inter-Variable.woff2') format('woff2-variations');
-  }
+          font-weight: 400 785;
+        }

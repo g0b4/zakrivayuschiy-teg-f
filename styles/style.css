@@ -24,7 +24,6 @@
   color: var(--text-color, #000000);
   font-family: var(--page-main-font-family, "Inter", sans-serif);
   font-variation-settings: "wght" var(--page-main-font-weight, 400);
-  color: var(--accent-clr, #000);
 }
 
 .container {
@@ -457,6 +456,5 @@ footer {
   .card__watermark {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--color-secondary);
-    text-shadow: 1px var(--color-secondary);
   }
 }
