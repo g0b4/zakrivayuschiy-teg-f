@@ -149,7 +149,7 @@
   background-color: var(--color-secondary);
   border: 2px solid var(--color-primary);
   padding-bottom: 25px;
-  max-inline-size: 696px;
+  max-inline-size: 700px;
 }
 
 .card__title {
@@ -165,7 +165,7 @@
   display: flex;
   flex-direction: column;
   font-size: 18px;
-  gap: 27px;
+  gap: 28px;
   padding: 25px;
 }
 
@@ -368,7 +368,7 @@ footer {
   display: flex;
   width: 20px;
   height: 20px;
-  /*mix-blend-mode: difference;*/
+  mix-blend-mode: difference;
   color: var(--color-button-text);
 }
 

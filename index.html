@@ -646,6 +646,11 @@
 
     <footer>
 
+      <symbol id="floppy_dialog" 
+      stroke="currentColor"
+      fill="currentColor">
+      </symbol> 
+
       <button
         class="save__button button"
         onclick="window['dialog-id'].showModal();"
@@ -653,7 +658,7 @@
         type="button"
       >
         <svg class="floppy" id="floppy">
-          <use href="svg/sprites.svg#floppy">
+          <use href="svg/sprites.svg#floppy" />
         </svg>
         <span class="button__text">Сохранить на память</span>
       </button>
@@ -672,9 +677,6 @@
             aria-controls="dialog-id"
           >
             <span class="button__text">Ok</span>
-            <symbol id="floppy" 
-            stroke="currentColor"
-            fill="currentColor">
           </button>
         </div>
       </dialog>
