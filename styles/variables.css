@@ -32,4 +32,5 @@
     --color-heart-unfilled: #000000;
 
     --max-container-width: 700px;
+    --section-width: min(700px, 100%);
 }

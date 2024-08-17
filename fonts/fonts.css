@@ -7,10 +7,10 @@
 
   @font-face {
     font-display: swap;
-    font-family: 'Inter';
+    font-family: Inter;
     src:
-      local('Roboto-Flex-Variable'),
-      url('../fonts/Inter-Variable.woff2') format('woff2 supports variations'),
-          url('../fonts/Inter-Variable.woff2') format('woff2-variations');
-          font-weight: 400 785;
-        }
+      url(Inter-Variable.woff2) format(woff2),
+      url(Inter-Variable.woff2) format(woff2 supports variations),
+      url(Inter-Variable.woff2) format(woff2-variations);
+    font-weight: 400 785;
+  }
