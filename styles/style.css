@@ -220,7 +220,7 @@
   padding: 0;
   display: flex;
   align-items: center;
-  outline: 2px solid transparent; 
+  outline: 2px solid none;
   transition: outline 0.3s ease;
 }
 
@@ -462,14 +462,21 @@
   }
 
   .dialog {
-    
     max-width: 353px;
   }
 }
 
-@media (width < 374px) {
+@media (width <= 375px) {
   :root {
     --logo-text-size: clamp(2.475rem, 2.5357rem + 1.6964vw, 4.0625rem);
+  }
+
+  .save__button .floppy {
+    width: 30px;
+    height: 30px;
+  }
+  .save__button {
+    flex-direction: column;
   }
 }
 
