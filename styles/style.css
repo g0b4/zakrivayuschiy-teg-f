@@ -162,7 +162,7 @@
   color: var(--color-primary);
   font-family: var(--font-primary);
   font-size: var(--text-size);
-  font-variation-settings: 'wght' var(--font-weight-bold, 785);
+  font-variation-settings: "wght" var(--font-weight-bold, 785);
   padding: 5px 10px;
 }
 
@@ -364,15 +364,20 @@
 .main {
   display: flex;
   flex-direction: column;
+  padding-block-end: 53px;
   gap: 50px;
+}
+
+.main:last-child {
+  gap: 0px;
 }
 
 .dialog__section {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-block-end:100px;
-  margin-block-start:50px;
+  margin-block-end: 100px;
+  margin-block-start: 50px;
 }
 
 .save__button {
@@ -426,7 +431,7 @@
 }
 
 .dialog__text {
-  font-family: var(--font-secondary, 'Press Start 2P'), sans-serif;
+  font-family: var(--font-secondary, "Press Start 2P"), sans-serif;
   line-height: 1.5em;
   text-transform: uppercase;
   font-size: 14px;
@@ -466,7 +471,7 @@
   }
 }
 
-@media (width <= 375px) {
+@media (width <= 775px) {
   :root {
     --logo-text-size: clamp(2.475rem, 2.5357rem + 1.6964vw, 4.0625rem);
   }
@@ -478,11 +483,15 @@
   .save__button {
     flex-direction: column;
   }
+
+  .card__watermark {
+    top: 24px;
+    right: 13px;
+  }
 }
 
-
-
-@supports (-webkit-text-stroke: 1px var(--label-stroke-clr)) or (text-stroke: 1px var(--label-stroke-clr)) {
+@supports (-webkit-text-stroke: 1px var(--label-stroke-clr)) or
+  (text-stroke: 1px var(--label-stroke-clr)) {
   .card__watermark {
     text-shadow: none;
     -webkit-text-stroke: 1px var(--label-stroke-clr);

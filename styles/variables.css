@@ -8,6 +8,9 @@
     --color-heart: #FF0000;
     --color-button-text: #00CC14;
 
+    --bg-clr: #fff;
+    --label-stroke-clr: var(--bg-clr);
+
     --font-weight-static: 400;
     --font-weight-normal: 400;
     --font-weight-bold: 785;
